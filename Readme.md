@@ -32,7 +32,7 @@ Run your server `go run main.go`
 Autorize your app to be connected to Strava`https://www.strava.com/oauth/authorize?client_id={CLIENT_ID}&response_type=code&redirect_uri=http://localhost:8080/callback&scope=activity:read_all&approval_prompt=force`
 
 4. Analyze and get your insights.
-`http://localhost:8080/activities?access_token=eaf667ad8cf6010983c7323a939eb13ea302590f`
+`http://localhost:8080/activities?access_token={TOKEN}`
 and see the result:
 ![alt text](image.png)
 
